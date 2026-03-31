@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/sorin-skill-banner.png" alt="Sorin Skill banner" width="1100" />
+</p>
+
 # Sorin Skill
 
 Run your agent with Sorin.

@@ -17,7 +17,7 @@ Run your agent with Sorin.
 2. **Install the skill**
 
    ```bash
-   npx skill add https://github.com/SaharaLabsAI/skills/tree/main/sorin-skill
+   npx skills add https://github.com/SaharaLabsAI/skills/tree/main/sorin-skill
    ```
 
 3. **Expose your API key to the runtime**

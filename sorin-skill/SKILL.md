@@ -120,7 +120,7 @@ curl -X 'GET' \
 curl -X 'GET' \
   'https://tools.saharaai.com/api/project/analysis?projectName=berachain' \
   -H 'accept: text/plain' \
-  -H "Authorization: Bearer ${DEFI...EY}"
+  -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
 
 ## Output Style for End Users

@@ -11,7 +11,7 @@ When the user asks crypto-related questions, identify intent first, call the mos
 
 ## Gateway
 
-- Base URL: `https://defi-tools-proxy.saharaa.info`
+- Base URL: `https://tools.saharaai.com/api`
 - API key env var: `DEFI_TOOLS_API_KEY`
 - Auth header: `Authorization: Bearer ${DEFI_TOOLS_API_KEY}`
 - Accept header: `accept: text/plain`
@@ -20,7 +20,7 @@ Default request template:
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/<path>?<query>' \
+  'https://tools.saharaai.com/api/<path>?<query>' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
@@ -29,7 +29,7 @@ Pool analysis example:
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/pool/analysis?chain=Ethereum' \
+  'https://tools.saharaai.com/api/pool/analysis?chain=Ethereum' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
@@ -54,7 +54,7 @@ curl -X 'GET' \
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/token/analysis?token_symbol=ETH&quote_currency=USDT' \
+  'https://tools.saharaai.com/api/token/analysis?token_symbol=ETH&quote_currency=USDT' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
@@ -74,7 +74,7 @@ curl -X 'GET' \
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/pool/analysis?chain=Ethereum&protocol=lido&token_symbol=ETH' \
+  'https://tools.saharaai.com/api/pool/analysis?chain=Ethereum&protocol=lido&token_symbol=ETH' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
@@ -90,7 +90,7 @@ curl -X 'GET' \
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/chain/analysis?chainName=Ethereum' \
+  'https://tools.saharaai.com/api/chain/analysis?chainName=Ethereum' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
@@ -103,7 +103,7 @@ curl -X 'GET' \
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/protocol/analysis?protocol=aave' \
+  'https://tools.saharaai.com/api/protocol/analysis?protocol=aave' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
@@ -118,7 +118,7 @@ curl -X 'GET' \
 
 ```bash
 curl -X 'GET' \
-  'https://defi-tools-proxy.saharaa.info/project/analysis?projectName=berachain' \
+  'https://tools.saharaai.com/api/project/analysis?projectName=berachain' \
   -H 'accept: text/plain' \
   -H "Authorization: Bearer ${DEFI_TOOLS_API_KEY}"
 ```
